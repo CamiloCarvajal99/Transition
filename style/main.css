@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background-color: cadetblue;
+    height: 50px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: sans-serif;
+    font-size: 22px;
+
+}
+
+a:hover{
+    background-color: brown;
+    height: 20px;
+    border-bottom: solid 4px beige;
+    transition-duration: 1s;
+
+}
+section{
+    background-color:khaki;
+    height: 200px;
+    width: 200px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    
+ }
+section:hover{
+        background-color:darkorange;
+        height: 400px;
+        width: 400px;
+        transition-duration: 5s;
+ }
+
+ h1{
+        background-color:firebrick;
+        height: 250px;
+        width: 150px;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        position: absolute;
+        transition-property: width,height,background-color,border;
+        transition-duration: 2s;
+        transition-delay: 0s,1s,1s,2s;
+    
+ }
+
+ h1:hover{
+        width: 500px;
+        height: 450px;
+        background-color: dimgrey;
+        border: solid 10px;
+ }
+  /* Pagina 3*/
+ article {
+    background-color:chartreuse;
+    height: 200px;
+    width: 200px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: width,height,background-color;
+    transition-duration: 1s;
+    transition-delay: 0s,0s,1s;
+ }
+
+ article:hover{
+    background-color:blue;
+    height: 300px;
+    width: 300px;
+    transition-duration: 2s;
+    
+ }
+article div{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: width,height,background-color, border-radius;
+    transition-duration: 2s;
+    transition-delay: 2s,2s,2s,2s;
+}
+
+article:hover div{
+    background-color:gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+/*Pagina 4*/
+
+h2{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: width,height,background-color;
+    transition-duration: 2s;
+    transition-delay: 0s,1s,2s;
+}
+h2:hover{
+    background-color:gray;
+    width: 350px;
+    height: 350px;
+}
+h2 ol:nth-child(1){
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: left,border-radius,background-color;
+    transition-duration: 2s;
+    transition-delay: 3s,5s,6s;
+}
+h2:hover ol:nth-child(1){
+    background-color:blue;
+    border-radius: 50%;
+    left: 30px;
+}
+h2 ol:nth-child(2){
+    background-color:maroon;
+    width: 100px;
+    height: 100px;
+    bottom:  0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: right,border-radius,background-color;
+    transition-duration: 2s;
+    transition-delay: 3s,5s,6s;
+}
+h2:hover ol:nth-child(2){
+    background-color:tomato;
+    border-radius: 50%;
+    right: 30px;
+}
+
+/*Pagina 5*/
+strong{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: background-color,width,height;
+    transition-duration: 3s;
+    transition-delay: 0s,1s,2s;
+}
+
+strong:hover{
+    background-color:#00BFFF;
+   width: 400px;
+   height: 400px; 
+}
+
+main{
+    background-color: #B40404;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: top,right,border-radius;
+    transition-duration: 2s;
+    transition-delay: 4.5s,4.5s,5s;
+}
+
+strong:hover main{
+    background-color: #B40404;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+    border-radius:50%; 
+}
+
+p{
+    background-color: #B40404;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: bottom,left,border-radius;
+    transition-duration: 2s;
+    transition-delay: 4.5s,4.5s,5s; 
+}
+
+strong:hover p{
+    background-color: #B40404;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    left: 20px;
+    border-radius:50%; 
+}
+
+aside{
+    background-color: #B40404;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    transition-property: border-radius,background-color;
+    transition-duration: 2s;
+    transition-delay: 6s,7s;
+}
+strong:hover aside{
+    background-color: #04B431;
+    border-radius: 50%;
+}
+ /*Pagina 6*/
+.page6 {
+    
+        background-color: #585858;
+        width: 250px;
+        height: 250px;
+        bottom: 0px;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        margin: auto;
+        position: absolute;
+        transition-property:width,height,border-top,border-right,border-bottom,border-left;
+        transition-duration:1s;
+        transition-delay:0s,0s,1s,2s,3s,4s;
+        }
+        .page6:hover{
+        width: 450px;
+        height: 450px;
+        border-top:solid 10px #298A08;
+        border-right:solid 10px #F7FE2E;
+        border-bottom:solid 10px #F78181;
+        border-left:solid 10px#2E64FE;
+        }
+        
+        
+        .page6  header:nth-child(1){
+        background-color: #FF8000;
+        width: 70px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        transition-property: margin-top,margin-left,border-radius;
+        transition-duration: 2s;
+        transition-delay: 4.5s,4s,5s;
+        
+        }
+        
+        .page6:hover header:nth-child(1){
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 50%;
+        }
+        .page6  header:nth-child(2){
+        background-color: #FF8000;
+        width: 70px;
+        height: 70px;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        transition-property: margin-top,margin-right,border-radius;
+        transition-duration: 2s;
+        transition-delay: 5.5s,6s,7s;
+        
+        }
+        .page6:hover header:nth-child(2){
+        margin-top: 20px;
+        margin-right: 20px;
+        border-radius: 50%;
+        }
+        .page6  header:nth-child(3){
+        background-color: #FF8000;
+        width: 70px;
+        height: 70px;
+        left: 0px;
+        bottom: 0px;
+        position: absolute;
+        transition-property: margin-bottom,margin-left,border-radius;
+        transition-duration: 2s;
+        transition-delay: 7.5s,8s,9s;
+        
+        }
+        .page6:hover header:nth-child(3){
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border-radius: 50%;
+        }
+        .page6  header:nth-child(4){
+        background-color: #FF8000;
+        width: 70px;
+        height: 70px;
+        right: 0px;
+        bottom: 0px;
+        position: absolute;
+        transition-property: margin-bottom,margin-right,border-radius;
+        transition-duration: 2s;
+        transition-delay: 9.5s,10s,11s;
+        
+        }
+        .page6:hover header:nth-child(4){
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border-radius: 50%;
+        }
+        .page6  header:nth-child(5){
+        background-color: #FF8000;
+        width: 70px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        transition-property: border-radius,background-color;
+        transition-duration: 3s;
+        transition-delay: 11.5s, 12s;
+
+}
+.page6:hover header:nth-child(5){
+background-color: #0000FF;
+border-radius: 50%;
+
+
+}
